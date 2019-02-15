@@ -1,0 +1,312 @@
+p {
+    font-family: "Agency FB";
+    color: darkblue;
+    font-size: 1.5em;
+     
+}
+/* h2,h3,h4 {
+    font-family: "Agency FB";
+    color: darkblue;
+    
+} */
+body {
+    font-family: "Agency FB";
+    font-size: 1.5em;
+    /* background: url("../videos/180405_FinancialCharts_14.mp4") */
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    opacity: 0.08;
+}
+.container {
+   /* background: url("../images/background.gif")  */
+}
+.menu-nav {
+    width: 25%;
+    float: right;
+}
+.nav {
+    /* float: right; */
+    /* height: 19em; */
+    /* margin: 7px; */
+    /* background: url("../images/phoenix-consulting-logo.png"); */
+    /* margin-left: 38em; */
+    text-align: right;
+    padding: 5px;
+    color: darkblue;
+    /* background: url("../videos/180405_FinancialCharts_14.mp4"); */
+    font-family: "Agency FB";
+    background-repeat: no-repeat;
+    position: relative;
+    /* opacity: 0.08; */
+    height: 8em;
+    background-size: contain;
+
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.nav-link1 {
+    display: block
+}
+.nav-link2 {
+    display: block
+}
+.nav-link3 {
+    display: block
+}
+.content {
+    position: relative;
+    
+}
+.top-content{
+    /* background: url("../images/lagos-skyline.jpg"); */
+    width: 100%;
+    display: inline-block;
+    height: 37em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: breath 40s linear infinite;
+}
+.left-content {
+    margin: 5px;
+    padding: 2px;
+    /* border: 1px solid black */
+}
+.left-content h2{
+    font-family: "Agency FB";
+    color: darkblue;
+
+}
+.left-content p{
+    font-family: "Agency FB";
+    color: darkblue;
+    font-size: 1.5em;
+    
+}
+.right-content {
+    margin: 5px;
+    padding: 10px;
+    height: 7em;
+    /* border: 1px solid black; */
+    width: fit-content
+}
+.inner-right-content {
+    /* background: lightblue; */
+    text-align: center
+    
+}
+.inner-right-content img {
+    border-radius: 25px;
+    width: 5em;
+    height: 4em;
+}
+header {
+    background: url("../images/johnsongeneralserviceslogo.png");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+header h1 {
+    font-family: "Agency FB";
+    text-align: center;
+    color: darkblue;
+    font-size: 4em;
+    
+}
+footer {
+    /* background: url("../images/letterHead.png") */
+    font-family: "Agency FB";
+    text-align: center;
+    /* float: left */
+
+}
+footer p {
+    font-family: "Agency FB";
+    text-align: center;
+    color: darkblue;
+    font-size: 4em;
+    
+}
+footer h1 {
+    font-family: "Agency FB";
+    text-align: center;
+    color: darkblue;
+    font-size: 4em;
+}
+.footer {
+    /* background: url("../images/letterHead.png") */
+    font-family: "Agency FB";
+    text-align: center;
+    /* float: left */
+    
+}
+.footer-copyright {
+    font-family: "Agency FB";
+    text-align: center;
+    color: darkblue;  
+}
+.hrt {
+    float: left 
+}
+.slides {
+    display: none;
+    position: relative;
+    /* background: grey; */
+    opacity: .5;
+    float: left;
+    height: 35em;
+    /* margin: 20px; */
+    margin-top: 173px;
+    background-size: 100%;
+    /* width: 50em; */
+    /* animation: breath 40s linear infinite; */
+
+}
+@keyframes breath {
+    0%   { 
+        background-size: 100% auto;
+        -webkit-transform: scale(1);
+      transform: scale(1); 
+    }
+    25%   { 
+        background-size: 125% auto;
+        -webkit-transform: scale(1.1);
+      transform: scale(1.1); 
+    }
+    50% { 
+        background-size: 150% auto;
+        -webkit-transform: scale(1.2);
+      transform: scale(1.25); 
+    }
+    75%   { 
+        background-size: 125% auto;
+        -webkit-transform: scale(1.1);
+      transform: scale(1.1); 
+    }
+    100% { 
+        background-size: 100% auto;
+        -webkit-transform: scale(1);
+      transform: scale(1); 
+    }
+  }
+  /* @-webkit-keyframes breathing {
+    0% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  
+    25% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  
+    60% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  
+    100% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  }
+  
+  @keyframes breathing {
+    0% {
+      -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  
+    25% {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+    }
+  
+    60% {
+      -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  
+    100% {
+      -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  } */
+  
+.slides2 {
+    /* overflow: hidden; */
+    display: block;
+    /* background: grey; */
+    position: absolute;
+    /* opacity: .9; */
+      float: left;
+      height: 35em;
+      background-size: 100%;
+      /* margin: 20px; */
+      /* margin-top: 173px; */
+      width: 100%;
+      height: 100%;
+      /* padding: 10px; */
+      /* animation: breath 40s linear infinite; */
+    -webkit-animation: breath 40s ease-out infinite normal;
+    animation: breath 40s ease-out infinite normal;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+  #slideshow {
+      /* overflow: hidden; */
+      /* width: 100%; */
+      /* animation: breath 40s linear infinite; */
+     /* -webkit-animation: breathing 7s ease-out infinite normal;
+    animation: breathing 7s ease-out infinite normal; */
+      
+    }
+.bottom-image {
+    transition: transform .2s linear infinite;
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+    margin: 2em;
+    margin-right: 15em;
+    float: right;
+    padding: 2em;
+    position: initial;
+
+}
+.bottom-image:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    margin-bottom: 3em;
+    margin-left: 20em;
+}
+.under-bottom-image {
+    display: inline-block;
+    margin: 5px;
+    padding: 15px;
+}
+.under-bottom-image h2{
+    font-family: "Agency FB";
+    color: darkblue;
+}
+.under-bottom-image p {
+    font-family: "Agency FB";
+    color: darkblue;
+    font-size: 1.5em;
+}
+.boundless {
+    overflow: hidden;
+    position: relative;
+    min-height: 1px;
+    /* padding-right: 15px;
+    padding-left: 15px; */
+}
